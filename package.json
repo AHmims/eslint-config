@@ -1,7 +1,7 @@
 {
   "name": "@sidi3li/eslint-config-monorepo",
   "version": "1.0.3",
-  "private": false,
+  "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Ali HMIMS <ali.hmims99@gmail.com> (https://github.com/Ahmims/)",
   "license": "MIT",
