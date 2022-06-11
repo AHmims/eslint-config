@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sidi3li",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "homepage": "https://github.com/ahmims/eslint-config",
   "main": "./dist/index.cjs",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && unbuild",
+    "build": "rm -rf dist && unbuild",
     "stub": "unbuild --stub",
     "test": "vitest",
     "prepublishOnly": "npm run build"
