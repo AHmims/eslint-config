@@ -1,5 +1,5 @@
 {
-  "name": "@3li/eslint-config-monorepo",
+  "name": "@sidi3li/eslint-config-monorepo",
   "version": "1.0.3",
   "private": false,
   "packageManager": "pnpm@7.1.0",
@@ -14,7 +14,7 @@
     "@antfu/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
-    "eslint-plugin-3li": "workspace:*",
+    "eslint-plugin-sidi3li": "workspace:*",
     "typescript": "^4.7.2"
   }
 }

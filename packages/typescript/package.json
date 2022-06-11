@@ -1,5 +1,5 @@
 {
-  "name": "@3li/eslint-config-ts",
+  "name": "@sidi3li/eslint-config-ts",
   "version": "1.0.3",
   "description": "",
   "author": "Ali HMIMS <ali.hmims99@gmail.com> (https://github.com/ahmims/)",
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@3li/eslint-config-basic": "workspace:*",
+    "@sidi3li/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0"
   },

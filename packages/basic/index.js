@@ -329,9 +329,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // 3li
-    '3li/if-newline': 'error',
-    '3li/import-dedupe': 'error',
-    // '3li/prefer-inline-type-import': 'error',
+    // sidi3li
+    'sidi3li/if-newline': 'error',
+    'sidi3li/import-dedupe': 'error',
+    // 'sidi3li/prefer-inline-type-import': 'error',
   },
 }

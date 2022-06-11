@@ -1,5 +1,5 @@
 {
-  "name": "@3li/eslint-config",
+  "name": "@sidi3li/eslint-config",
   "version": "1.0.3",
   "description": "3li's ESLint config",
   "author": "Ali HMIMS <ali.hmims99@gmail.com> (https://github.com/ahmims/)",
@@ -16,8 +16,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@3li/eslint-config-react": "workspace:*",
-    "@3li/eslint-config-vue": "workspace:*",
+    "@sidi3li/eslint-config-react": "workspace:*",
+    "@sidi3li/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint-plugin-eslint-comments": "^3.2.0",

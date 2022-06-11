@@ -7,19 +7,19 @@ importers:
       '@antfu/eslint-config': '*'
       bumpp: ^7.1.1
       eslint: ^8.16.0
-      eslint-plugin-3li: workspace:*
+      eslint-plugin-sidi3li: workspace:*
       typescript: ^4.7.2
     devDependencies:
       '@antfu/eslint-config': 0.25.1_xztl6dhthcahlo6akmb2bmjmle
       bumpp: 7.1.1
       eslint: 8.16.0
-      eslint-plugin-3li: link:packages/eslint-plugin-3li
+      eslint-plugin-sidi3li: link:packages/eslint-plugin-sidi3li
       typescript: 4.7.2
 
   packages/all:
     specifiers:
-      '@3li/eslint-config-react': workspace:*
-      '@3li/eslint-config-vue': workspace:*
+      '@sidi3li/eslint-config-react': workspace:*
+      '@sidi3li/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
@@ -35,8 +35,8 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
-      '@3li/eslint-config-react': link:../react
-      '@3li/eslint-config-vue': link:../vue
+      '@sidi3li/eslint-config-react': link:../react
+      '@sidi3li/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.26.0_grfei5yostfimvqdpf73rlhy3e
       '@typescript-eslint/parser': 5.26.0_eslint@8.16.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.16.0
@@ -56,7 +56,7 @@ importers:
   packages/basic:
     specifiers:
       eslint: ^8.16.0
-      eslint-plugin-3li: workspace:*
+      eslint-plugin-sidi3li: workspace:*
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.26.0
@@ -69,7 +69,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
-      eslint-plugin-3li: link:../eslint-plugin-3li
+      eslint-plugin-sidi3li: link:../eslint-plugin-sidi3li
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.16.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.26.0_eslint@8.16.0
@@ -84,7 +84,7 @@ importers:
     devDependencies:
       eslint: 8.16.0
 
-  packages/eslint-plugin-3li:
+  packages/eslint-plugin-sidi3li:
     specifiers:
       '@typescript-eslint/utils': ^5.26.0
       unbuild: ^0.7.4
@@ -97,13 +97,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@3li/eslint-config-ts': workspace:*
+      '@sidi3li/eslint-config-ts': workspace:*
       eslint: ^8.16.0
       eslint-plugin-react: ^7.30.0
       react: ^18.1.0
       typescript: ^4.7.2
     dependencies:
-      '@3li/eslint-config-ts': link:../typescript
+      '@sidi3li/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.30.0_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0
@@ -112,12 +112,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@3li/eslint-config-basic': workspace:*
+      '@sidi3li/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
     dependencies:
-      '@3li/eslint-config-basic': link:../basic
+      '@sidi3li/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.26.0_grfei5yostfimvqdpf73rlhy3e
       '@typescript-eslint/parser': 5.26.0_eslint@8.16.0
     devDependencies:
@@ -125,11 +125,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@3li/eslint-config-ts': workspace:*
+      '@sidi3li/eslint-config-ts': workspace:*
       eslint: ^8.16.0
       eslint-plugin-vue: ^9.0.1
     dependencies:
-      '@3li/eslint-config-ts': link:../typescript
+      '@sidi3li/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.0.1_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0

@@ -1,5 +1,5 @@
 {
-  "name": "@3li/eslint-config-vue",
+  "name": "@sidi3li/eslint-config-vue",
   "version": "1.0.3",
   "description": "",
   "author": "Ali HMIMS <ali.hmims99@gmail.com> (https://github.com/ahmims/)",
@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@3li/eslint-config-ts": "workspace:*",
+    "@sidi3li/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.0.1"
   },
   "devDependencies": {

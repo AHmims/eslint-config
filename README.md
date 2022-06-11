@@ -13,14 +13,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @3li/eslint-config
+pnpm add -D eslint @sidi3li/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@3li"
+  "extends": "@sidi3li"
 }
 ```
 

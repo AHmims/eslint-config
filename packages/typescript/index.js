@@ -1,8 +1,8 @@
-const basic = require('@3li/eslint-config-basic')
+const basic = require('@sidi3li/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@3li/eslint-config-basic',
+    '@sidi3li/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
