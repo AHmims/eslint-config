@@ -33,7 +33,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'sidi3li',
   ],
   settings: {
     'import/resolver': {

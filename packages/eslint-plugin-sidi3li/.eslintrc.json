@@ -1,6 +1,6 @@
 {
-  "extends": "@antfu",
+  "extends": "@sidi3li",
   "plugins": [
-    "antfu"
+    "sidi3li"
   ]
 }
