@@ -1,4 +1,4 @@
-const basic = require('@sidi3li/eslint-config-basic')
+const basic = require('@sidi3li/eslint-config-basic');
 
 module.exports = {
   extends: [
@@ -127,4 +127,4 @@ module.exports = {
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
   },
-}
+};
